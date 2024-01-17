@@ -1,0 +1,95 @@
+@use "variaveis";
+
+.formulario__grup{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 24px;
+    
+    
+    &__list{
+        border-bottom: 2px solid #ccc;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-top: 16px;
+        gap: 5px;
+
+        &__botoes{
+            display: flex;
+            justify-content: center;
+            margin-top: 8px;
+            gap: 20px;
+           
+            
+        }
+   
+    }
+
+    h3{
+        font-size: 16px;
+        color: variaveis.$textSecundario;
+       
+        
+    }
+    h2{
+        font-size: 22px;
+        color: variaveis.$textSecundario;
+        border-bottom: 2px solid #ccc;
+    }
+
+    span{
+        position: absolute;
+        right: 0;
+    }
+
+    .btnn{
+        display: block;
+        background-color: variaveis.$corBotao2;
+        border: none;
+        width: 300px;
+        padding: 16px;
+        font-weight: bold;
+
+        &--btnn-n{
+            background-color: variaveis.$textSecundario;
+        }
+    }
+}
+
+@media (max-width:767px){
+   
+   .formulario__grup{
+    font-size: 11px;
+    &__list__botoes{
+        display: block;
+    
+    }
+    
+   }
+
+   .btnn{
+    margin-bottom: 10px;
+    
+   }
+     
+}
+
+ 
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+   
+    
+   
+    

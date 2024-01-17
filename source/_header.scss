@@ -1,0 +1,74 @@
+@use "variaveis";
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.header{
+    background-color: variaveis.$corHeader;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 30px;
+    align-items: center;
+    
+    
+
+    a{
+        text-decoration: none;
+        color: variaveis.$corPrincipal;
+    }
+
+    &__geral__list{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        text-transform: uppercase;
+        margin-left:-35px;
+    
+        
+
+        &__geral__list__item{
+            text-decoration: none;
+ 
+        }
+    }
+
+
+}
+
+.header__logo{
+    width: 180px;
+}
+
+
+@media (max-width:767px){
+    .header{
+        display: block;
+        padding: 16px;
+
+        &__geral__list{
+            font-size: 12px;
+            gap: 10px;
+        
+        }
+    }
+    .header__logo{
+        width: 100px;
+        margin-left: 40%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
