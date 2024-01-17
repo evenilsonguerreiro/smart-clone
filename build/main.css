@@ -121,11 +121,16 @@ header {
   .formulario__grup {
     font-size: 11px;
   }
+  .formulario__grup h2 {
+    font-size: 14px;
+  }
   .formulario__grup__list__botoes {
     display: block;
+    width: 100%;
   }
   .btnn {
     margin-bottom: 10px;
+    width: 100%;
   }
 }
 body {

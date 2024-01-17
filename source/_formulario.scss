@@ -59,9 +59,15 @@
 @media (max-width:767px){
    
    .formulario__grup{
-    font-size: 11px;
+        font-size: 11px;
+
+        h2{
+            font-size: 14px;
+        }
+
     &__list__botoes{
         display: block;
+        width: 100%;
     
     }
     
@@ -69,6 +75,7 @@
 
    .btnn{
     margin-bottom: 10px;
+    width: 100%;
     
    }
      
